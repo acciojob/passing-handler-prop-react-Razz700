@@ -43,7 +43,7 @@ const App = () => {
         {
           ["selection1", "selection2", "selection3"].map(key => (
             <Selection key={key} applyColor={applyColor} 
-            bg={nextBackground}/>
+            bg={nextBackground} list={colourConfig}/>
           ))
         }
       </div>
