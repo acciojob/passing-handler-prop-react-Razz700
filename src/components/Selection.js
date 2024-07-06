@@ -8,10 +8,10 @@ const Selection = (props) => {
   }
   let dat='';
   if (bg=='rgb(34, 193, 195)') {
-    dat='blue';
+    dat="blue";
   }else if(bg=='rgb(221, 112, 18)'){
-    dat='orange'
-  }else if(bg=='rgb(44, 209, 88)'){dat='green'}
+    dat="orange"
+  }else if(bg=='rgb(44, 209, 88)'){dat="green"}
   return (
          <div className='fix-box' data-testid={dat} style={{backgroundColor:bg}} onClick={
             handleclick
