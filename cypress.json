@@ -1,1 +1,3 @@
 {}
+cy.get('[data-testid="blue"]').click();
+cy.wait(500);
